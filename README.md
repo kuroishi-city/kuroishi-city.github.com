@@ -1,6 +1,6 @@
-# 俺のゼニはどこ行った for 横浜
+# 俺のゼニはどこ行った for 黒石
 
-wheredoesmymoney.orgの横浜バージョンです．
+wheredoesmymoney.orgの黒石バージョンです．
 
 http://spending.jp/ で稼働しているサイトのソースコードです。
 
@@ -12,6 +12,8 @@ Where Does My Money Go? β版（2012年7月1日稼働）は、横浜市民が横
 
 
 Core Team: (@は Twitter Account)
+
+村林　恒(Hisashi Murabayashi), @murachan (Adviser)
 
 伊藤　大貴(Hirotaka Itou), @hirochan (Adviser)
 川島　宏一(Hiroichi Kawashima), @hiroichi_k (Coordinator)
