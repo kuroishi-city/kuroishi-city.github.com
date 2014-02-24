@@ -11,13 +11,13 @@ Taxes.taxRate = 0.06; // 住民税率
 var OpenSpending = OpenSpending || {};
 
 OpenSpending.identifier = 'kuroishi_city_budget';
-OpenSpending.year = '201';
+OpenSpending.year = '2013';
 
 OpenSpending.Styles = OpenSpending.Styles || {};
 
 OpenSpending.Styles.Cofog = {
 
-  /* yokohama cofog */
+  /* kuroishi cofog */
   '1': { icon: 'icons/civilian-action.svg', color: '#C75746', bcolor: '#935B3B' },
   '1.1': { icon: 'icons/civilian-action.svg', color: '#C75746', bcolor: '#935B3B' },
   '2': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#0AB971' },
