@@ -194,7 +194,7 @@ OpenSpending.DailyBread = function (elem) {
       var iconUrl, paper;
       iconUrl = $(e).data('svg-url');
       paper = Raphael(e, iconRad+iconRad,iconRad+iconRad+5);
-      paper.circle(iconRad,iconRad,iconRad).attr({ fill: '#CC0000', stroke: 'none' });
+      paper.circle(iconRad,iconRad,iconRad).attr({ fill: '#FBDA03', stroke: 'none' });
       paper.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#CCC', opacity: .8, 'stroke-dasharray': '- ' });
       $.get(iconUrl, function(svg) {
         if (typeof(svg) == "string") {
