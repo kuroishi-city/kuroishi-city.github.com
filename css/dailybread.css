@@ -61,8 +61,7 @@
 #db-topbar div p {
   margin: 0;
   padding: 0;
-/*  color: #830242;*/
-  color: #087D10;	/**/
+  color: #E98103;	/* 年収・市税の文字色 */
   font-size: 1.5em;
   font-weight: bold;
 }
