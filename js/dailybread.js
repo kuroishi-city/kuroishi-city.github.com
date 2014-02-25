@@ -233,7 +233,7 @@ OpenSpending.renderDependentTypes = function(db) {
     $(target).bind('click', handleClick);
 
     var r = Raphael(target, iconRad * 2, iconRad * 2 + 5);
-    r.circle(iconRad,iconRad,iconRad).attr({ fill: '#CC0000', stroke: 'none' });
+    r.circle(iconRad,iconRad,iconRad).attr({ fill: '#FBDA03', stroke: 'none' });
     r.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#CCC', opacity: .8, 'stroke-dasharray': '- ' });
     $.get(iconPath, function(svg) {
       if (typeof(svg) == "string") {
