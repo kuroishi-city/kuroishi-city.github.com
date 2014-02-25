@@ -18,8 +18,8 @@ OpenSpending.Styles = OpenSpending.Styles || {};
 OpenSpending.Styles.Cofog = {
 
   /* kuroishi cofog　color=使途一日あたりのアイコン色　bcolor=使途別予算額のアイコン色 */
-  '1'	: { icon: 'icons/civilian-action.svg'	, color: '#8A0808', bcolor: '#FF6666' },
-  '1.1'	: { icon: 'icons/civilian-action.svg'	, color: '#8A0808', bcolor: '#FF6666' },
+  '1'	: { icon: 'icons/civilian-action.svg'	, color: '#FF6666', bcolor: '#FF6666' },
+  '1.1'	: { icon: 'icons/civilian-action.svg'	, color: '#FF6666', bcolor: '#FF6666' },
   '2'	: { icon: 'icons/publicaffairs.svg'		, color: '#8A0808', bcolor: '#0AB971' },
   '2.1'	: { icon: 'icons/publicaffairs.svg'		, color: '#8A0808', bcolor: '#0AB971' },
   '3'	: { icon: 'icons/pre-school.svg'		, color: '#8A0808', bcolor: '#4E6D00' },
