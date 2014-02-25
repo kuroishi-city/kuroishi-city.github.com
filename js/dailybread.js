@@ -195,7 +195,7 @@ OpenSpending.DailyBread = function (elem) {
       iconUrl = $(e).data('svg-url');
       paper = Raphael(e, iconRad+iconRad,iconRad+iconRad+5);
       paper.circle(iconRad,iconRad,iconRad).attr({ fill: '#CC0000', stroke: 'none' });
-      paper.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#CC0000', opacity: .8, 'stroke-dasharray': '- ' });
+      paper.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#FFF', opacity: .8, 'stroke-dasharray': '- ' });
       $.get(iconUrl, function(svg) {
         if (typeof(svg) == "string") {
           svg = $(svg);
@@ -234,7 +234,7 @@ OpenSpending.renderDependentTypes = function(db) {
 
     var r = Raphael(target, iconRad * 2, iconRad * 2 + 5);
     r.circle(iconRad,iconRad,iconRad).attr({ fill: '#CC0000', stroke: 'none' });
-    r.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#CC0000', opacity: .8, 'stroke-dasharray': '- ' });
+    r.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#FFF', opacity: .8, 'stroke-dasharray': '- ' });
     $.get(iconPath, function(svg) {
       if (typeof(svg) == "string") {
         svg = $(svg);
