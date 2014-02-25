@@ -192,7 +192,8 @@
 }
 
 #select-dependents-type circle {
-  fill: #ffffff;
+/*  fill: #ffffff;*/
+  fill: #72C817;
   stroke: none;
 }
 
