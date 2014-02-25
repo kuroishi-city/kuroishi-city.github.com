@@ -31,8 +31,7 @@
 }
 
 #db-header h1 {
-/*  color: #830242;*/
-  color: #70CE0C;
+  color: #830242;
   font-size: 2.5em;
   text-transform: uppercase;
 }
@@ -165,7 +164,8 @@
 }
 
 .db-area-col.active .db-area-icon path {
-  fill: #830242;
+/*  fill: #830242;*/
+  fill: #70CE0C;
   stroke: none;
 }
 
