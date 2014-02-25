@@ -10,7 +10,7 @@ http://spending.jp/ で稼働しているサイトのソースコードです。
 
 Core Team：
 
-International Open Data Day in AOMORI　チーム黒石市
+International Open Data Day 2014 in AOMORI　チーム黒石市
 
 このソースコードは、Open Definition(http://opendefinition.org/) の定義に沿っていれば、どなたでも利用、改変、及び再配布が可能です。
 http://qiita.com/items/38c186efbd272ef59121
