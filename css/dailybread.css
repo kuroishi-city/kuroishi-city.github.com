@@ -61,7 +61,8 @@
 #db-topbar div p {
   margin: 0;
   padding: 0;
-  color: #830242;
+/*  color: #830242;*/
+  color: #087D10;	/**/
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -88,8 +89,7 @@
 
 .wdmmg-slider.ui-widget-content {
   background: none;
-/*  background-color: #830242;*/
-  background-color: #E8E407;	/**/
+  background-color: #E8E407;	/* 年収選択スライダーの色 */
   height: 6px;
 }
 
