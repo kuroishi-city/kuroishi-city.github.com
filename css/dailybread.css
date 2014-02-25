@@ -192,18 +192,19 @@
 }
 
 #select-dependents-type circle {
-/*  fill: #ffffff;*/
-  fill: #72C817;
+  fill: #ffffff;	/* 世帯タイプ：見選択時の背景色 */
   stroke: none;
 }
 
 #select-dependents-type path {
-  fill: #AAAAAA;
+/*  fill: #AAAAAA;*/
+  fill: #72C817;	/**/
   stroke: none;
 }
 
 #select-dependents-type > div.active circle {
-  fill: #ffffff;
+/*  fill: #ffffff;*/
+  fill: #E8E407;	/**/
   stroke: none;
 }
 
