@@ -208,7 +208,7 @@ OpenSpending.DailyBread = function (elem) {
           paths = svg.getElementsByTagName('path');
           for (j=0;j<paths.length;j++) joined += paths[j].getAttribute('d')+' ';
           icon = paper.path(joined);
-          icon.attr({ fill: '#000', stroke: 'none' });
+          icon.attr({ fill: '#FFF', stroke: 'none' });		// カテゴリアイコンイラスト色
           icon.scale(iconRad/50, iconRad/50, 0, 0);
         } catch (e) {
           // failed to handle SVG
@@ -246,7 +246,7 @@ OpenSpending.renderDependentTypes = function(db) {
       paths = svg.getElementsByTagName('path');
       for (j=0;j<paths.length;j++) joined += paths[j].getAttribute('d')+' ';
       icon = r.path(joined);
-      icon.attr({ fill: 'white', stroke: 'none' });
+      icon.attr({ fill: '#000', stroke: 'none' });		// サブカテゴリアイコンイラスト色
       icon.scale(iconRad/50, iconRad/50, 0, 0);
     });
   }
