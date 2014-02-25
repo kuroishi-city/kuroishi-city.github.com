@@ -88,7 +88,8 @@
 
 .wdmmg-slider.ui-widget-content {
   background: none;
-  background-color: #830242;
+/*  background-color: #830242;*/
+  background-color: #E8E407;	/**/
   height: 6px;
 }
 
@@ -136,8 +137,7 @@
 }
 
 .db-area-col.active {
-/*  color: #830242;*/
-  color: #CC0000;	/* カテゴリ・サブカテゴリアイコン：選択した際の文字色 */
+  color: #CC0000;	/* カテゴリ・サブカテゴリアイコン：選択時の文字色 */
   font-weight: bold;
 }
 
@@ -161,13 +161,12 @@
 
 .db-area-col.active .db-area-icon circle {
 /*  fill: #ffffff;*/
-  fill: #EEEEEE;	/* カテゴリ・サブカテゴリアイコン：選択した際の背景色 */
+  fill: #EEEEEE;	/* カテゴリ・サブカテゴリアイコン：選択時の背景色 */
   stroke: none;
 }
 
 .db-area-col.active .db-area-icon path {
-/*  fill: #830242;*/
-  fill: #CC0000;	/* カテゴリアイコン：選択した際のイラスト色 */
+  fill: #CC0000;	/* カテゴリアイコン：選択時のイラスト色 */
   stroke: none;
 }
 
@@ -186,31 +185,27 @@
 }
 
 #select-dependents-type > div.active {
-/*  color: #830242;*/
-  color: #CC0000;	/* 世帯タイプ：選択した際の文字色 */
+  color: #CC0000;	/* 世帯タイプ：選択時の文字色 */
   font-weight: bold;
 }
 
 #select-dependents-type circle {
-  fill: #ffffff;	/* 世帯タイプ：見選択時の背景色 */
+  fill: #ffffff;	/* 世帯タイプ：未選択時の背景色 */
   stroke: none;
 }
 
 #select-dependents-type path {
-/*  fill: #AAAAAA;*/
-  fill: #72C817;	/**/
+  fill: #999999;	/* 世帯タイプ：未選択時のイラスト色 */
   stroke: none;
 }
 
 #select-dependents-type > div.active circle {
-/*  fill: #ffffff;*/
-  fill: #E8E407;	/**/
+  fill: #FFFFFF;	/* 世帯タイプ：選択時の背景色 */
   stroke: none;
 }
 
 #select-dependents-type > div.active path {
-/*  fill: #830242;*/
-  fill: #CC0000;		/* 世帯タイプ：選択した際のアイコン色 */
+  fill: #CC0000;		/* 世帯タイプ：選択時のイラスト色 */
   stroke: none;
 }
 
