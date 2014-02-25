@@ -34,9 +34,9 @@ OpenSpending.Styles.Cofog = {
 13：予備費
   */
   '1'	: { icon: 'icons/legislative.svg'				, color: '#CC0000', bcolor: '#FF6666' },
-  '1.1'	: { icon: 'icons/legislative.svg'				, color: '#CC0000', bcolor: '#FF6666' },
+  '1-1'	: { icon: 'icons/legislative.svg'				, color: '#CC0000', bcolor: '#FF6666' },
   '2'	: { icon: 'icons/admin.svg'						, color: '#CC0000', bcolor: '#0AB971' },
-  '2.1'	: { icon: 'icons/admin.svg'						, color: '#CC0000', bcolor: '#0AB971' },
+  '2-1'	: { icon: 'icons/admin.svg'						, color: '#CC0000', bcolor: '#0AB971' },
   '3'	: { icon: 'icons/helping-others.svg'			, color: '#CC0000', bcolor: '#4E6D00' },
   '3.1'	: { icon: 'icons/helping-others.svg'			, color: '#CC0000', bcolor: '#4E6D00' },
   '4'	: { icon: 'icons/health.svg'					, color: '#CC0000', bcolor: '#339900' },
