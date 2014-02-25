@@ -159,7 +159,8 @@
 }
 
 .db-area-col.active .db-area-icon circle {
-  fill: #ffffff;
+/*  fill: #ffffff;*/
+  fill: #70CE0C;
   stroke: none;
 }
 
