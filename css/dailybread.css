@@ -137,7 +137,7 @@
 
 .db-area-col.active {
 /*  color: #830242;*/
-  color: #70CE0C;
+  color: #CC0000;	/* カテゴリ・サブカテゴリアイコン：選択した際の文字色 */
   font-weight: bold;
 }
 
@@ -161,7 +161,7 @@
 
 .db-area-col.active .db-area-icon circle {
 /*  fill: #ffffff;*/
-  fill: #EEEEEE;	/* カテゴリアイコン：選択した際の背景色 */
+  fill: #EEEEEE;	/* カテゴリ・サブカテゴリアイコン：選択した際の背景色 */
   stroke: none;
 }
 
