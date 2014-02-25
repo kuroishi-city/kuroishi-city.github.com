@@ -187,7 +187,7 @@
 
 #select-dependents-type > div.active {
 /*  color: #830242;*/
-  color: #70CE0C;
+  color: #CC0000;	/* 世帯タイプ：選択した際の文字色 */
   font-weight: bold;
 }
 
@@ -207,7 +207,8 @@
 }
 
 #select-dependents-type > div.active path {
-  fill: #830242;
+/*  fill: #830242;*/
+  fill: #70CE0C;
   stroke: none;
 }
 
