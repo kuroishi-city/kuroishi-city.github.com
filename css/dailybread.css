@@ -208,7 +208,7 @@
 
 #select-dependents-type > div.active path {
 /*  fill: #830242;*/
-  fill: #70CE0C;		/* 世帯タイプ：選択した際のアイコン色 */
+  fill: #CC0000;		/* 世帯タイプ：選択した際のアイコン色 */
   stroke: none;
 }
 
