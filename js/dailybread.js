@@ -195,7 +195,7 @@ OpenSpending.DailyBread = function (elem) {
       iconUrl = $(e).data('svg-url');
       paper = Raphael(e, iconRad+iconRad,iconRad+iconRad+5);
       paper.circle(iconRad,iconRad,iconRad).attr({ fill: '#CC0000', stroke: 'none' });
-      paper.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#FFF', opacity: .8, 'stroke-dasharray': '- ' });
+      paper.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#CCC', opacity: .8, 'stroke-dasharray': '- ' });
       $.get(iconUrl, function(svg) {
         if (typeof(svg) == "string") {
           svg = $(svg);
@@ -208,7 +208,7 @@ OpenSpending.DailyBread = function (elem) {
           paths = svg.getElementsByTagName('path');
           for (j=0;j<paths.length;j++) joined += paths[j].getAttribute('d')+' ';
           icon = paper.path(joined);
-          icon.attr({ fill: 'white', stroke: 'none' });
+          icon.attr({ fill: '#000', stroke: 'none' });
           icon.scale(iconRad/50, iconRad/50, 0, 0);
         } catch (e) {
           // failed to handle SVG
@@ -234,7 +234,7 @@ OpenSpending.renderDependentTypes = function(db) {
 
     var r = Raphael(target, iconRad * 2, iconRad * 2 + 5);
     r.circle(iconRad,iconRad,iconRad).attr({ fill: '#CC0000', stroke: 'none' });
-    r.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#FFF', opacity: .8, 'stroke-dasharray': '- ' });
+    r.circle(iconRad,iconRad,iconRad-2).attr({ fill: 'none', stroke: '#CCC', opacity: .8, 'stroke-dasharray': '- ' });
     $.get(iconPath, function(svg) {
       if (typeof(svg) == "string") {
         svg = $(svg);
