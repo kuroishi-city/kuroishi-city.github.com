@@ -17,7 +17,7 @@ OpenSpending.Styles = OpenSpending.Styles || {};
 
 OpenSpending.Styles.Cofog = {
 
-  /* kuroishi cofog　color=使途一日あたりのアイコン色　bcolor=使途別予算額のアイコン色 */
+  /* kuroishi cofog　color=使途一日あたりのアイコン色（未使用っぽい）　bcolor=使途別予算額のアイコン色 */
  /*
 1：議会費
 2：総務費
