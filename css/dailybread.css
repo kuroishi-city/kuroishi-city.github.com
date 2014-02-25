@@ -186,7 +186,8 @@
 }
 
 #select-dependents-type > div.active {
-  color: #830242;
+/*  color: #830242;*/
+  color: #70CE0C;
   font-weight: bold;
 }
 
