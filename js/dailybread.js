@@ -246,7 +246,7 @@ OpenSpending.renderDependentTypes = function(db) {
       paths = svg.getElementsByTagName('path');
       for (j=0;j<paths.length;j++) joined += paths[j].getAttribute('d')+' ';
       icon = r.path(joined);
-      icon.attr({ fill: '#000', stroke: 'none' });		// サブカテゴリアイコンイラスト色
+      icon.attr({ fill: '#FFF', stroke: 'none' });
       icon.scale(iconRad/50, iconRad/50, 0, 0);
     });
   }
